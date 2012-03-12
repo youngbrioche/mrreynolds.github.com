@@ -1,0 +1,81 @@
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header.main {
+/*  border-bottom: 1px solid #F1F1F1;*/
+  margin-bottom: 10px;
+}
+
+header.main h1 {
+  font-size: 54px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+header.main h1 .in-between {
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+header.main p {
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+
+section.index ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+section.index ul li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #F6F6F6;
+}
+
+section.index ul li span {
+  float: right;
+}
+
+h1 a:link, h1 a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+article h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+/*  text-transform: uppercase;*/
+}
+
+article p, article blockquote, article ul {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 16px;
+  color: #5C5C5C;
+  line-height: 1.5;
+}
+
+article ul {
+  margin-bottom: 15px;
+}
+
+article ul li {
+  margin-bottom: 6px;
+}
+
+blockquote {
+
+}
+
+ul.nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+}
